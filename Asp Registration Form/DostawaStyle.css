@@ -1,0 +1,40 @@
+﻿* {
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+
+section {
+    background-image: url("Images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.95;
+}
+
+
+.container {
+    width: 47vw;
+    height: 67vh;
+    background-image: url('Images/panel.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.7;
+    box-shadow: 10px 10px 5px 5px;
+    position: relative;
+    top: 20px;
+    left: 0px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 80px;
+    text-shadow: 4px 4px black;
+    margin-bottom: 30px;
+}

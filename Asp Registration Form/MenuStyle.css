@@ -1,0 +1,16 @@
+﻿* {
+    margin:0;
+    padding: 0;
+}
+
+
+section {
+    background-image: url("Images/background.jpg");
+    background-repeat: repeat-x;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.95;
+}
+
